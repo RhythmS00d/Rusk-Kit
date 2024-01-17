@@ -11,9 +11,17 @@
     "url": "git+https://github.com/RhythmS00d/Rusk-Kit.git"
   },
   "author": "Rhythm Sood",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RhythmS00d/Rusk-Kit/issues"
   },
-  "homepage": "https://github.com/RhythmS00d/Rusk-Kit#readme"
+  "homepage": "https://github.com/RhythmS00d/Rusk-Kit#readme",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
