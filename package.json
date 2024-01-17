@@ -1,0 +1,19 @@
+{
+  "name": "rusk-kit",
+  "version": "1.0.0",
+  "description": "A UI library for React/Js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhythmS00d/Rusk-Kit.git"
+  },
+  "author": "Rhythm Sood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RhythmS00d/Rusk-Kit/issues"
+  },
+  "homepage": "https://github.com/RhythmS00d/Rusk-Kit#readme"
+}
