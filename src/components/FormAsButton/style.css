@@ -1,0 +1,21 @@
+.button {
+    background-color: rgb(30, 98, 200);
+    aspect-ratio: 3/1;
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(30, 98, 200, 0.9);
+}
+
+.button:active {
+    outline: 3.5px solid rgba(41, 135, 194, 0.5);
+}
