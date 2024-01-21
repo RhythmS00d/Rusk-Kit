@@ -7,7 +7,10 @@ export const Button = ({ label = "Button", className = "", ...props }) => {
   return (
     <>
       <button
-        className={cn("w-32 h-12 text-2xl bg-blue-600 text-white rounded-md active:outline-blue-400", className)}
+        className={cn(
+          "w-32 h-12 text-2xl bg-blue-500 hover:bg-blue-700 text-white rounded-md ",
+          className
+        )}
         title="This is a button"
         {...props}
       >
