@@ -1,23 +1,23 @@
 {
-  "name": "rusk-kit",
-  "version": "1.0.0",
+  "name": "@orgrhythmsood/rusk-kit",
+  "version": "1.0.1",
   "description": "A UI library for React/Js.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "keywords": [
+    "rusk-kit",
+    "rhythmsood",
+    "rhythm",
+    "sood",
+    "rusk"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RhythmS00d/Rusk-Kit.git"
-  },
   "author": "Rhythm Sood",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RhythmS00d/Rusk-Kit/issues"
-  },
-  "homepage": "https://github.com/RhythmS00d/Rusk-Kit#readme",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.6.10",
@@ -27,10 +27,15 @@
     "@storybook/react": "^7.6.10",
     "@storybook/react-webpack5": "^7.6.10",
     "@storybook/test": "^7.6.10",
+    "autoprefixer": "^10.4.17",
+    "clsx": "^2.1.0",
+    "postcss": "^8.4.33",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.6.10"
+    "storybook": "^7.6.10",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss": "^3.4.1"
   },
   "peerDependencies": {
     "react": "^18.2.0",

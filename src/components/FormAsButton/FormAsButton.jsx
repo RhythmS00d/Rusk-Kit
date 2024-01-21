@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 
 export const FormAsButton = ({ label = "Button", style, size = "md", ...props }) => {
   const buttonSize = {
