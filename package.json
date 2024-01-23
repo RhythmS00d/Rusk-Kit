@@ -14,7 +14,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "tailwind-watcher": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "author": "Rhythm Sood",
   "license": "MIT",
@@ -42,3 +43,11 @@
     "react-dom": "^18.2.0"
   }
 }
+
+
+
+
+
+
+
+
