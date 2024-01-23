@@ -5,7 +5,7 @@ import { BsCapslock } from "react-icons/bs";
 import { cn } from "../../utils/twMerge";
 import "../../output.css";
 
-export const TextInput = ({ label, className, required = false, value }) => {
+export const Input = ({ label, className, ...props }) => {
   const [capsLock, setCapsLock] = useState(false);
 
   useEffect(() => {
@@ -27,9 +27,8 @@ export const TextInput = ({ label, className, required = false, value }) => {
         name={label}
         autoComplete="off"
         autoCapitalize="off"
-        required={required}
         placeholder={label}
-        value={value}
+        {...props}
       />
       <span>{capsLock ? <BsCapslock /> : <></>}</span>
     </div>
