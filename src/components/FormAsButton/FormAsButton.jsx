@@ -1,24 +1,21 @@
 import React from "react";
-import "./style.css";
 
-export const FormAsButton = ({ label = "Button", style, size = "md", ...props }) => {
-  const buttonSize = {
-    sm: "7em",
-    md: "8em",
-    l: "11em",
-    xl: "13em",
-  };
-  const fontSize = {
-    sm: "1rem",
-    md: "1.5rem",
-    l: "2rem",
-    xl: "2.5rem",
-  };
+import { cn } from "../../utils/twMerge";
+import "../../output.css";
+
+export const FormAsButton = ({
+  label = "Button",
+  className,
+  size = "md",
+  ...props
+}) => {
   return (
     <>
       <form
-        className="button"
-        style={{ width: buttonSize[size], fontSize: fontSize[size], ...style }}
+        className={cn(
+          "w-32 h-12 text-2xl bg-blue-500 hover:bg-blue-700 text-white rounded-md cursor-pointer flex items-center justify-center",
+          className
+        )}
         {...props}
       >
         {label}
